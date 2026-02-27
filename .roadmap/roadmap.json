@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "schema_version": "0.4.0",
+    "esaa_version": "0.4.x",
+    "immutable_done": true,
+    "updated_at": "2026-02-27T17:36:18.266Z"
+  },
+  "tasks": [
+    {
+      "task_id": "T-1000",
+      "task_kind": "spec",
+      "title": "Create initial ESAA spec document",
+      "status": "done",
+      "assigned_to": "agent-terminal",
+      "completed_at": "2026-02-27T17:35:07.903Z"
+    },
+    {
+      "task_id": "T-1010",
+      "task_kind": "impl",
+      "title": "Create initial implementation artifact",
+      "status": "in_progress",
+      "assigned_to": "agent-terminal"
+    },
+    {
+      "task_id": "T-1020",
+      "task_kind": "qa",
+      "title": "Create initial QA report",
+      "status": "todo"
+    }
+  ],
+  "indexes": {
+    "by_status": {
+      "todo": 1,
+      "in_progress": 1,
+      "review": 0,
+      "done": 1
+    }
+  }
+}
